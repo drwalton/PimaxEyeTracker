@@ -12,6 +12,11 @@ A utility library with language bindings for aSeeVR UserSDK, to use with the 7in
 # Related Projects
 [VRCPimaxEyeTracker](https://github.com/NGenesis/VRCPimaxEyeTracker)
 
+# The SDK
+Get the ASeeVR runtime & SDK from the Pimax website here [https://pimax.com/downloads-manuals/](https://pimax.com/downloads-manuals/)
+
+Start the runtime (Start->aSeeVR_Runtime) before using this library.
+
 # Building
 Build by opening the project in Visual Studio, and running "Build All" in Release mode.
 
