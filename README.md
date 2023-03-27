@@ -11,3 +11,18 @@ A utility library with language bindings for aSeeVR UserSDK, to use with the 7in
 
 # Related Projects
 [VRCPimaxEyeTracker](https://github.com/NGenesis/VRCPimaxEyeTracker)
+
+# Building
+Build by opening the project in Visual Studio, and running "Build All" in Release mode.
+
+I have only tested this in Visual Studio Community 2022.
+
+## Directories
+During the build it will attempt to move the built libraries to a couple of directories outside this repo which you may need to create to avoid errors.
+
+These are: 
+
+`\PimaxEyeTracker\..\PimaxEyeTrackerUnity\Assets\PimaxEyeTracker\Plugins`
+`\PimaxEyeTracker\..\VRCPimaxEyeTracker\PimaxEyeTracker`
+
+Just to be clear you should create directories `\PimaxEyeTrackerUnity\Assets\PimaxEyeTracker\Plugins` and `\VRCPimaxEyeTracker\PimaxEyeTracker` in the same directory you've cloned this repository to.
